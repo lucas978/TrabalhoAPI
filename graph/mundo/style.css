@@ -1,0 +1,29 @@
+/* tell the SVG path to be a thin blue line without any area fill */
+.sumup{
+  text-align: center;
+}
+.countryname{
+  text-align: center;
+  margin: auto;
+}
+.graficos {
+  /* max-width: 100%; */
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.resumo {
+  text-align: center;
+  border: 1px solid #000;
+}
+.goback{
+  color: #000 !important;
+  text-decoration: underline;
+}
+@media only screen and (max-width: 600px) {
+
+  .graficos {
+    max-width: 90%;
+    display: block
+  }
+
+}
